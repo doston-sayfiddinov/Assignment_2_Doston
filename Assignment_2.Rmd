@@ -1,0 +1,10 @@
+---
+title: "Assignment_2"
+output: word_document
+---
+air_data <- airquality
+good <- complete.cases(air_data)
+good
+clean_data <- air_data[good, ]
+head(clean_data)
+
