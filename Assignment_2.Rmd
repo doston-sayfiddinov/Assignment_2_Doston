@@ -2,9 +2,17 @@
 title: "Assignment_2"
 output: word_document
 ---
+
 air_data <- airquality
 good <- complete.cases(air_data)
 good
 clean_data <- air_data[good, ]
 head(clean_data)
 
+## Data Cleaning
+
+This dataset contains *air quality measurements* such as ozone levels, wind, and temperature.
+
+We used **complete.cases()** to remove rows with missing values and create a clean dataset for analysis.
+
+The cleaned dataset is shown below.
